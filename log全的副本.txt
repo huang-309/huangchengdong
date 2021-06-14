@@ -1,0 +1,1427 @@
+06-09 18:36:15.014 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:15.765 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:16.117 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:16.117 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:16.118 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:16.220 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:16.220 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:16.322 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:16.573 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+    
+    --------- beginning of system
+06-09 18:36:16.722 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:16.723 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:23, down:true, repeatCount:0
+06-09 18:36:16.723 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:16.733 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:16.898 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:16.899 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:16.899 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:16.903 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:16.903 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:16.904 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:16.914 1713-2279/? I/audio_hw_primary: open output pcm for device [AUDIO_DEVICE_OUT_SPEAKER], path[HW DMA Reader1]
+06-09 18:36:16.914 1713-2279/? I/audio_hw_primary: pcm format:  ch[2], fs[48000], multi[0]
+06-09 18:36:16.914 1713-2279/? E/audio_hw_primary: pcm output open ok,  device_id:0
+06-09 18:36:16.922 2985-2985/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:658 android.content.ContextWrapper.startActivity:331 cc.popin.aladdin.home.adapter.AppGridAdapter.o:12 cc.popin.aladdin.home.adapter.AppGridAdapter.n:1 cc.popin.aladdin.home.g.d.c.a:20 
+06-09 18:36:16.923 2985-2985/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:670 android.app.ContextImpl.startActivity:659 android.content.ContextWrapper.startActivity:331 cc.popin.aladdin.home.adapter.AppGridAdapter.o:12 cc.popin.aladdin.home.adapter.AppGridAdapter.n:1 
+06-09 18:36:16.923 2190-3008/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_LAUNCHER] flg=0x10000000 pkg=fm.awa.liverpool cmp=fm.awa.liverpool/.tv.ui.splash.SplashActivity} from uid 1000 on display 0
+06-09 18:36:16.939 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:16.961 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:16.969 2985-2985/cc.popin.aladdin.home E/SplashActivity: onPause
+06-09 18:36:16.978 2190-3011/system_process I/ActivityManager: TR6) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:16.978 2190-3011/system_process I/ActivityManager: TR5) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:16.997 2985-7468/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 com.google.android.gms.common.stats.a.d:4 com.google.android.gms.common.stats.a.a:1 com.google.android.gms.measurement.internal.q8.e:10 
+06-09 18:36:17.050 2190-3011/system_process I/ActivityManager: accel TR6) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:17.051 2190-3011/system_process I/ActivityManager: accel TR5) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:17.168 3249-7532/fm.awa.liverpool W/FirebaseInstanceId: Failed to find package android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+06-09 18:36:17.174 3249-7532/fm.awa.liverpool W/FirebaseInstanceId: Failed to find package android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+06-09 18:36:17.175 3249-7532/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:17.205 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:17.210 1702-1902/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.liverpool.tv.ui.splash.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:17.210 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:17.215 3249-3249/fm.awa.liverpool W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1952987, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.217 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.218 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.218 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.218 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1952988, downTime=1952987, deviceId=8, source=0x301 }
+06-09 18:36:17.266 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:17.266 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:17.268 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:17.300 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:17.322 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:17.325 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:17.338 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/.tv.ui.splash.SplashActivity: +368ms
+06-09 18:36:17.889 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=XiaoduPods-1A84 len=16 dev_type=3
+06-09 18:36:17.890 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:17.893 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:17.897 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:17.902 3518-5022/com.android.newsettings D/setting3.0: changeName xdBluetoothDeviceItem:name::XiaoduPods-1A84  address::CC:E0:DA:1B:1A:84  pro_type::0  statue_type::0  bt_type::0
+06-09 18:36:18.075 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:18.177 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:18.178 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:18.180 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:18.282 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:18.282 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:18.384 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:18.634 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:18.823 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:18.824 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:18.895 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:18.916 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:18.916 1718-1718/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:18.916 1718-1718/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:19.001 3249-5632/fm.awa.liverpool W/GooglePlayServicesUtil: fm.awa.liverpool requires the Google Play Store, but it is missing.
+06-09 18:36:19.002 3249-5632/fm.awa.liverpool W/GoogleApiManager: The service for g.h.c.i.c.d is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-09 18:36:19.004 2190-2201/system_process I/ActivityManager: START u0 {cmp=fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity (has extras)} from uid 10065 on display 0
+06-09 18:36:19.008 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.025 2190-2451/system_process I/ActivityManager: accel TR6) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=2}
+06-09 18:36:19.025 2190-2451/system_process I/ActivityManager: accel TR5) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:19.042 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.042 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.043 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.211 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.214 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.215 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.356 1702-1813/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:19.357 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:19.385 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:19.466 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.469 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.470 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.648 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:19.667 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.668 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.669 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.881 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.883 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.884 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.886 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:19.962 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.982 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:19.983 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:19.983 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.059 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.071 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:20.073 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.152 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.153 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:20.154 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.240 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:20.241 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:20.250 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:20.343 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:20.343 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:20.446 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:20.450 3249-3259/fm.awa.liverpool I/art: Background partial concurrent mark sweep GC freed 50620(3MB) AllocSpace objects, 22(768KB) LOS objects, 31% free, 34MB/50MB, paused 3.770ms total 162.784ms
+06-09 18:36:20.527 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity: +1s506ms
+06-09 18:36:20.696 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:20.699 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 63 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:20.971 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.971 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:20.988 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:20.989 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:20.989 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:20.989 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:21.197 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:21.877 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 60 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:21.947 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:22.282 3249-3259/fm.awa.liverpool I/art: Background sticky concurrent mark sweep GC freed 158830(8MB) AllocSpace objects, 21(984KB) LOS objects, 17% free, 41MB/50MB, paused 3.846ms total 109.230ms
+06-09 18:36:22.301 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:22.301 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:22.302 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:22.405 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:22.405 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:22.508 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:22.610 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:22.758 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:22.926 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:22.929 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Sending Ping at:1623231382929
+06-09 18:36:22.931 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:22.932 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Schedule next alarm at 1623231392932
+06-09 18:36:22.932 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Alarm scheule using setExactAndAllowWhileIdle, next: 10000
+06-09 18:36:22.934 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.023 3383-4533/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Success. Release lock(MqttService.client.3a069860-571e-3666-855e-97164f4ee2d0):1623231383023
+06-09 18:36:23.024 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.248 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.259 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:23.385 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.385 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:22, down:true, repeatCount:0
+06-09 18:36:23.386 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:23.399 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:23.399 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:23.400 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.410 1713-2279/? I/audio_hw_primary: open output pcm for device [AUDIO_DEVICE_OUT_SPEAKER], path[HW DMA Reader1]
+06-09 18:36:23.410 1713-2279/? I/audio_hw_primary: pcm format:  ch[2], fs[48000], multi[0]
+06-09 18:36:23.410 1713-2279/? E/audio_hw_primary: pcm output open ok,  device_id:0
+06-09 18:36:23.452 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:23.549 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:23.551 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:23.551 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:23.595 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:23.824 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:23.824 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:23.917 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:23.917 1718-4642/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:23.917 1718-4642/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:23.947 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:23.948 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:23, down:true, repeatCount:0
+06-09 18:36:23.949 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:24.009 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:24.111 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:24.112 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:24.112 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:24.117 2190-3024/system_process I/ActivityManager: START u0 {cmp=fm.awa.liverpool/fm.awa.tv.ui.playlist.detail.PlaylistDetailActivity (has extras)} from uid 10065 on display 0
+06-09 18:36:24.121 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:24.121 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:24.130 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:24.147 1713-2279/? D/AudioFlinger: mixer(0xecb60008) throttle end: throttle time(150)
+06-09 18:36:24.155 2190-3010/system_process I/ActivityManager: accel TR6) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=2}
+06-09 18:36:24.155 2190-3010/system_process I/ActivityManager: accel TR5) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:24.207 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:24.265 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:24.267 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:24.268 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:24.270 5681-6279/com.android.providers.tv E/DatabaseUtils: Writing exception to parcel
+    java.lang.IllegalArgumentException: Unknown URI content://android.media.tv/watch_next_program
+        at com.android.providers.tv.TvProvider.createSqlParams(TvProvider.java:798)
+        at com.android.providers.tv.TvProvider.query(TvProvider.java:520)
+        at android.content.ContentProvider.query(ContentProvider.java:1017)
+        at android.content.ContentProvider$Transport.query(ContentProvider.java:238)
+        at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)
+        at android.os.Binder.execTransact(Binder.java:453)
+06-09 18:36:24.373 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:24.381 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:24.381 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:24.475 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:24.475 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:24.525 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:24.556 1702-1813/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.tv.ui.playlist.detail.PlaylistDetailActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:24.556 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:24.572 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:24.580 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:24.583 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:24.583 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:24.756 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:24.808 3249-3249/fm.awa.liverpool W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1960199, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.808 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.808 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.808 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.808 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.809 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.809 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.809 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.809 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.809 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1960200, downTime=1960199, deviceId=8, source=0x301 }
+06-09 18:36:24.833 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:24.886 3249-3249/fm.awa.liverpool E/ActivityThread: Failed to find provider info for com.xgimi.manager
+06-09 18:36:24.886 3249-3249/fm.awa.liverpool D/Toast: isBlackList toast
+06-09 18:36:24.991 3249-3259/fm.awa.liverpool I/art: Background partial concurrent mark sweep GC freed 155663(9MB) AllocSpace objects, 15(628KB) LOS objects, 28% free, 40MB/56MB, paused 3.720ms total 204.933ms
+06-09 18:36:25.158 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:25.358 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:25.584 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:25.719 3249-3249/fm.awa.liverpool E/ActivityThread: Failed to find provider info for com.xgimi.manager
+06-09 18:36:25.719 3249-3249/fm.awa.liverpool D/Toast: isBlackList toast
+06-09 18:36:25.743 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:25.753 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/fm.awa.tv.ui.playlist.detail.PlaylistDetailActivity: +1s608ms
+06-09 18:36:25.782 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:25.787 1702-1902/? E/BufferQueueProducer: [Toast] connect(P): already connected (cur=1 req=1)
+06-09 18:36:25.788 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:25.855 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:25.958 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:26.085 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:26.158 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:26.258 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:26.437 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:26.437 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:26.438 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:26.459 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:26.475 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=Hi-SZL1-12B7E000567 len=19 dev_type=2
+06-09 18:36:26.477 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:26.481 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:26.490 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:26.497 3518-3532/com.android.newsettings D/setting3.0: changeName xdBluetoothDeviceItem:name::Hi-SZL1-12B7E000567  address::F6:EE:EE:50:2E:9B  pro_type::0  statue_type::0  bt_type::0
+06-09 18:36:26.541 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:26.541 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:26.554 1867-1867/? I/tvos: [INFO] Change to Voltage: 1100 mV (0x2B)
+06-09 18:36:26.643 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:26.657 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:26.858 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:26.893 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:27.215 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:27.483 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:27.559 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:27.645 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:27.658 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:28.025 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:28.145 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:28.151 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=XiaoduPods-1A84 len=16 dev_type=3
+06-09 18:36:28.152 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:28.157 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:28.170 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:28.176 3518-4996/com.android.newsettings D/setting3.0: changeName xdBluetoothDeviceItem:name::XiaoduPods-1A84  address::CC:E0:DA:1B:1A:84  pro_type::0  statue_type::0  bt_type::0
+06-09 18:36:28.210 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:28.210 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:20, down:true, repeatCount:0
+06-09 18:36:28.211 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:28.386 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:28.497 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:28.497 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:28.498 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:28.602 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:28.602 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:28.623 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:28.623 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:28.624 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:28.624 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:28.624 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:28.627 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:28.635 1713-2279/? I/audio_hw_primary: open output pcm for device [AUDIO_DEVICE_OUT_SPEAKER], path[HW DMA Reader1]
+06-09 18:36:28.635 1713-2279/? I/audio_hw_primary: pcm format:  ch[2], fs[48000], multi[0]
+06-09 18:36:28.635 1713-2279/? E/audio_hw_primary: pcm output open ok,  device_id:0
+06-09 18:36:28.665 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:28.679 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:28.704 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:28.824 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:28.825 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:28.918 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:28.918 1718-1718/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:28.918 1718-1718/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:28.954 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:29.158 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:29.217 2190-2209/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:29.285 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:29.285 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:23, down:true, repeatCount:0
+06-09 18:36:29.286 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:29.410 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:29.414 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:29.414 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:29.423 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:29.423 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:29.427 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:29.453 1713-2279/? D/AudioFlinger: mixer(0xecb60008) throttle end: throttle time(50)
+06-09 18:36:29.517 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:29.705 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:29.861 3249-3249/fm.awa.liverpool W/GooglePlayServicesUtil: fm.awa.liverpool requires the Google Play Store, but it is missing.
+06-09 18:36:29.887 3249-3249/fm.awa.liverpool W/GooglePlayServicesUtil: fm.awa.liverpool requires the Google Play Store, but it is missing.
+06-09 18:36:30.206 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:30.559 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:30.560 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:30.560 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:30.563 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:30.660 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:30.664 2190-2323/system_process D/WifiStateMachine: L2Connected CMD_START_SCAN source -2 101, 102 ignore when user is not setting wifi UI, because wifi sta is connected
+06-09 18:36:30.666 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:30.666 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:30.769 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:30.849 3249-3259/fm.awa.liverpool I/art: Background sticky concurrent mark sweep GC freed 269570(9MB) AllocSpace objects, 0(0B) LOS objects, 16% free, 46MB/56MB, paused 3.110ms total 141.293ms
+06-09 18:36:30.956 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:31.019 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:31.054 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:31.258 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:31.599 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 58 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:31.659 3249-7579/fm.awa.liverpool W/Glide: Load failed for null with size [0x0]
+    class com.bumptech.glide.load.engine.GlideException: Received null model
+06-09 18:36:31.754 1867-1867/? I/tvos: [INFO] Change to Voltage: 1100 mV (0x2B)
+06-09 18:36:31.770 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:31.954 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:32.153 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:32.520 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:32.526 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.622 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:32.623 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:32.623 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:32.725 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:32.725 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:32.827 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:32.876 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:32.884 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=Hi-SZL1-12B7E000567 len=19 dev_type=2
+06-09 18:36:32.885 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.889 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:32.902 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:32.908 3518-3533/com.android.newsettings D/setting3.0: changeName xdBluetoothDeviceItem:name::Hi-SZL1-12B7E000567  address::F6:EE:EE:50:2E:9B  pro_type::0  statue_type::0  bt_type::0
+06-09 18:36:32.933 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.935 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Sending Ping at:1623231392935
+06-09 18:36:32.936 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.936 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Schedule next alarm at 1623231402936
+06-09 18:36:32.936 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Alarm scheule using setExactAndAllowWhileIdle, next: 10000
+06-09 18:36:32.938 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.941 2190-2202/system_process I/MediaFocusControl:  AudioFocus  requestAudioFocus() from android.media.AudioManager@e56554ei.a.j.i.a@114466f req=1flags=0x0
+06-09 18:36:32.942 6558-6558/cc.popin.aladdin.radiko D/AudioManager: AudioManager dispatching onAudioFocusChange(-1) for android.media.AudioManager@37fcfaecom.google.android.exoplayer2.AudioFocusManager$AudioFocusListener@d46a14f
+06-09 18:36:32.943 2190-3029/system_process I/MediaFocusControl:  AudioFocus  abandonAudioFocus() from android.media.AudioManager@37fcfaecom.google.android.exoplayer2.AudioFocusManager$AudioFocusListener@d46a14f
+06-09 18:36:32.943 2190-3029/system_process I/MediaFocusControl: AudioFocus  removeFocusStackEntry(): removing entry for android.media.AudioManager@37fcfaecom.google.android.exoplayer2.AudioFocusManager$AudioFocusListener@d46a14f
+06-09 18:36:32.946 2190-3024/system_process D/WifiService: acquireWifiLockLocked: WifiLock{AWA:player_lock type=3 binder=android.os.BinderProxy@135fb95}
+06-09 18:36:32.947 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:32.957 2950-3103/com.xgimi.filemanager E/DeviceLoadService: CHECKMOUNTSTATUS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>false
+06-09 18:36:32.961 2950-3103/com.xgimi.filemanager E/FindLocalDevice: path>>>>>>>>>>>:/storage/emulated/0state:mounted
+06-09 18:36:32.961 2950-3103/com.xgimi.filemanager E/DeviceLoadService: mountPath/storage/emulated/0
+06-09 18:36:32.961 2950-3103/com.xgimi.filemanager I/JClass: --------------12205936
+06-09 18:36:32.961 2950-3103/com.xgimi.filemanager I/mOpenCounter: openDatabase mOpenCounter=209
+06-09 18:36:32.963 2950-3103/com.xgimi.filemanager E/DeviceLoadService: checkMountPathExisttrue
+06-09 18:36:32.964 2950-3103/com.xgimi.filemanager I/JClass: --------------12205936
+06-09 18:36:32.964 2950-3103/com.xgimi.filemanager I/mOpenCounter: openDatabase mOpenCounter=210
+06-09 18:36:32.964 2950-3103/com.xgimi.filemanager E/DeviceLoadService: usb/storage/emulated/0
+06-09 18:36:32.965 2950-3103/com.xgimi.filemanager E/DeviceLoadService: notifyCheckChanged>>>>>>>>>>>>>>>>>>>>>>
+06-09 18:36:33.029 3383-4533/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Success. Release lock(MqttService.client.3a069860-571e-3666-855e-97164f4ee2d0):1623231393029
+06-09 18:36:33.030 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:33.078 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:33.084 3249-3259/fm.awa.liverpool I/art: Background partial concurrent mark sweep GC freed 349183(16MB) AllocSpace objects, 5(356KB) LOS objects, 28% free, 40MB/56MB, paused 6.571ms total 244.861ms
+06-09 18:36:33.301 3249-7567/fm.awa.liverpool I/ExoPlayerImpl: Init c80ab93 [ExoPlayerLib/2.10.8] [synsepalum_U, popIn Aladdin, MStar Semiconductor, Inc., 23]
+06-09 18:36:33.458 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:33.578 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:33.658 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:33.790 2190-3006/system_process I/ActivityManager: START u0 {cmp=fm.awa.liverpool/fm.awa.tv.ui.player.detail.PlayerDetailActivity (has extras)} from uid 10065 on display 0
+06-09 18:36:33.797 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:33.825 2190-3008/system_process I/ActivityManager: accel TR6) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=3}
+06-09 18:36:33.825 2190-3008/system_process I/ActivityManager: accel TR5) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:33.825 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:33.834 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:33.891 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:33.919 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:33.919 1718-4642/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:33.919 1718-4642/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:33.963 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:33.964 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:33.965 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:34.021 3249-3259/fm.awa.liverpool I/art: Background partial concurrent mark sweep GC freed 76356(4MB) AllocSpace objects, 9(808KB) LOS objects, 27% free, 42MB/58MB, paused 5.354ms total 215.353ms
+06-09 18:36:34.119 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:34.121 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:34.121 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:34.165 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:34.332 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:34.387 1702-2265/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.tv.ui.player.detail.PlayerDetailActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:34.388 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:34.572 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:34.656 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:34.686 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:34.690 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:34.690 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:34.716 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/fm.awa.tv.ui.player.detail.PlayerDetailActivity: +897ms
+06-09 18:36:34.755 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:34.792 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:34.792 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:34.858 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:34.895 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:34.959 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:35.146 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:35.233 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:35.456 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 8 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 1024 for video/mp4v-es
+06-09 18:36:35.489 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unrecognized profile/level 32768/2 for video/mp4v-es
+06-09 18:36:35.507 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/hevcdv
+06-09 18:36:35.509 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/mvc
+06-09 18:36:35.511 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unrecognized profile/level 0/0 for video/mpeg2
+06-09 18:36:35.511 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unrecognized profile/level 0/2 for video/mpeg2
+06-09 18:36:35.511 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unrecognized profile/level 0/3 for video/mpeg2
+06-09 18:36:35.523 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/divx3
+06-09 18:36:35.525 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/divx4
+06-09 18:36:35.532 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/flv
+06-09 18:36:35.537 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/VC1
+06-09 18:36:35.539 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/wvc1
+06-09 18:36:35.541 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/wmv3
+06-09 18:36:35.543 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/mjpeg
+06-09 18:36:35.546 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/avs
+06-09 18:36:35.548 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.558 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:35.561 3249-7586/fm.awa.liverpool W/VideoCapabilities: Unsupported mime video/realvideo
+06-09 18:36:35.565 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/mpeg-L1
+06-09 18:36:35.566 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/mpeg-L2
+06-09 18:36:35.570 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/mpeg-L1
+06-09 18:36:35.570 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/mpeg-L2
+06-09 18:36:35.574 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/adpcm
+06-09 18:36:35.575 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/lpcm
+06-09 18:36:35.576 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/cook
+06-09 18:36:35.577 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/x-ms-wma
+06-09 18:36:35.582 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/ac3
+06-09 18:36:35.582 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/ac3p
+06-09 18:36:35.585 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/dts
+06-09 18:36:35.586 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/dts-hd
+06-09 18:36:35.586 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/dts-lbr
+06-09 18:36:35.587 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/vnd.dts
+06-09 18:36:35.588 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/vnd.dts.hd
+06-09 18:36:35.591 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/vnd.dts.lbr
+06-09 18:36:35.594 3249-7586/fm.awa.liverpool W/AudioCapabilities: Unsupported mime audio/dra
+06-09 18:36:35.615 3249-7586/fm.awa.liverpool I/VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+06-09 18:36:35.631 3249-7595/fm.awa.liverpool I/OMXClient: Using client-side OMX mux.
+06-09 18:36:35.637 1713-2724/? E/OMXNodeInstance: setConfig(53:google.aac.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+06-09 18:36:35.637 3249-7595/fm.awa.liverpool I/ACodec: codec does not support config priority (err -2147483648)
+06-09 18:36:35.647 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:35.647 1713-7596/? I/SoftAAC2: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+06-09 18:36:35.657 3249-7586/fm.awa.liverpool D/EqualizerProcessor: sampleRate=44100, encoding=2
+06-09 18:36:35.657 3249-7586/fm.awa.liverpool D/libhdplayer: [::AudioTrackExContext] SdkVersion=23
+06-09 18:36:35.657 3249-7586/fm.awa.liverpool D/libhdplayer: [::AudioTrackExContext] find java methods from this class
+06-09 18:36:35.658 3249-7586/fm.awa.liverpool D/libhdplayer: [::Java_com_onkyo_android_exoplayer_EqualizerProcessor_setEqualizerManager] called, nativeHandler=368132053296, nativeEqualizerManagerHandler=368122138112
+06-09 18:36:35.662 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.672 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.673 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.682 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:35.682 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:35.692 1713-2279/? I/audio_hw_primary: open output pcm for device [AUDIO_DEVICE_OUT_SPEAKER], path[HW DMA Reader1]
+06-09 18:36:35.692 1713-2279/? I/audio_hw_primary: pcm format:  ch[2], fs[48000], multi[0]
+06-09 18:36:35.692 1713-2279/? E/audio_hw_primary: pcm output open ok,  device_id:0
+06-09 18:36:35.757 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:35.828 1713-2279/? D/AudioFlinger: mixer(0xecb60008) throttle end: throttle time(76)
+06-09 18:36:35.855 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:35.924 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.925 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:35.942 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=Hi-SZL1-12B7E000567 len=19 dev_type=2
+06-09 18:36:35.946 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.949 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:35.957 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:35.959 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:35.959 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:35.959 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:35.963 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:35.969 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:35.983 3518-5022/com.android.newsettings D/setting3.0: changeName xdBluetoothDeviceItem:name::Hi-SZL1-12B7E000567  address::F6:EE:EE:50:2E:9B  pro_type::0  statue_type::0  bt_type::0
+06-09 18:36:36.056 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:36.159 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:36.397 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:36.751 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:36.755 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:36.755 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:36.755 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:36.856 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:36.857 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:36.857 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:36.961 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:36.970 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:37.055 1867-1867/? I/tvos: [INFO] Change to Voltage: 1050 mV (0x26)
+06-09 18:36:37.155 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:37.163 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:37.163 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:37.163 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:37.164 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:37.166 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:37.169 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:37.183 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_BLUETOOTH_SCO 2
+06-09 18:36:37.199 3249-3259/fm.awa.liverpool I/art: Background sticky concurrent mark sweep GC freed 127673(9MB) AllocSpace objects, 12(712KB) LOS objects, 17% free, 48MB/58MB, paused 4.971ms total 131.927ms
+06-09 18:36:37.200 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 10
+06-09 18:36:37.201 2446-2696/com.android.systemui I/vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+06-09 18:36:37.208 2446-2446/com.android.systemui E/vol.VolumeDialog: stream:3
+06-09 18:36:37.209 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:37.211 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:37.219 2446-2446/com.android.systemui I/vol.Events: writeEvent show_dialog volume_changed keyguard=false
+06-09 18:36:37.249 1702-1902/? E/BufferQueueProducer: [VolumeDialog] connect(P): already connected (cur=1 req=1)
+06-09 18:36:37.249 2446-3156/com.android.systemui D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:37.270 2190-2209/system_process W/ResourceType: Invalid package identifier when getting bag for resource number 0xffffffff
+06-09 18:36:37.323 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:37.323 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:37.324 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:37.672 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:37.673 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:37.673 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:37.673 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:37.674 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:37.694 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 12
+06-09 18:36:37.697 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:37.710 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 12
+06-09 18:36:37.712 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:37.720 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:37.722 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:37.724 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'52'value:52 <========= 
+06-09 18:36:37.835 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:37.836 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:37.837 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:38.020 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=12
+06-09 18:36:38.135 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:38.135 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:38.136 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:38.137 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:38.158 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 14
+06-09 18:36:38.160 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:38.199 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 14
+06-09 18:36:38.200 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:38.201 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:38.202 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'52'value:52 <========= 
+06-09 18:36:38.213 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:38.260 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:38.262 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:38.262 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:38.263 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:38.423 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:38.423 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:38.423 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:38.424 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:38.447 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 16
+06-09 18:36:38.450 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:38.500 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=14
+06-09 18:36:38.536 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:38.537 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:38.548 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:38.662 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 16
+06-09 18:36:38.665 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:38.665 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:38.667 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:38.668 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'52'value:52 <========= 
+06-09 18:36:38.671 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:38.713 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:38.816 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:38.816 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:38.818 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:38.835 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:38.835 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:38.920 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:38.920 1718-4642/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:38.920 1718-4642/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:38.921 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:38.921 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:38.965 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=16
+06-09 18:36:39.023 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:39.247 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.248 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:39.248 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:39.274 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:39.410 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:39.411 2190-2276/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:39.413 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.414 2190-2276/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity (has extras)} from uid 1000 on display 0
+06-09 18:36:39.415 2446-2446/com.android.systemui I/vol.Events: writeEvent dismiss_dialog volume_controller
+06-09 18:36:39.416 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:36:39.416 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason homekey
+06-09 18:36:39.419 2446-2696/com.android.systemui I/vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+06-09 18:36:39.434 1702-1702/? D/SurfaceFlinger: [capture screen]:maxLayerZ = 21030
+06-09 18:36:39.443 1702-1702/? D/SurfaceFlinger: captureScreen: end ret =0
+06-09 18:36:39.461 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.463 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:39.464 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:39.478 2190-2501/system_process I/ActivityManager: TR6) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:39.478 2190-2501/system_process I/ActivityManager: TR5) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=3}
+06-09 18:36:39.557 2190-2200/system_process I/art: Background partial concurrent mark sweep GC freed 33102(2MB) AllocSpace objects, 11(220KB) LOS objects, 33% free, 9MB/14MB, paused 1.530ms total 104.935ms
+06-09 18:36:39.561 2190-2501/system_process I/ActivityManager: accel TR6) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:39.561 2190-2501/system_process I/ActivityManager: accel TR5) TaskRecord{ef39460 #195 A=fm.awa.liverpool U=0 sz=3}
+06-09 18:36:39.574 2190-2205/system_process W/art: Long monitor contention event with owner method=int com.android.server.am.ActivityManagerService.broadcastIntent(android.app.IApplicationThread, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], int, android.os.Bundle, boolean, boolean, int) from ActivityManagerService.java:17093 waiters=1 for 103ms
+06-09 18:36:39.661 2985-2985/cc.popin.aladdin.home E/SplashActivity: onResume
+06-09 18:36:39.668 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.674 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:39.675 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.697 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:39.705 1702-1813/? E/BufferQueueProducer: [cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:39.705 2985-3336/cc.popin.aladdin.home D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:39.711 2985-7468/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 com.google.android.gms.common.stats.a.d:4 com.google.android.gms.common.stats.a.a:1 com.google.android.gms.measurement.internal.q8.e:10 
+06-09 18:36:39.725 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1975499, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.734 2446-2446/com.android.systemui E/vol.VolumeDialog: stream:3
+06-09 18:36:39.735 2446-2446/com.android.systemui D/vol.VolumeDialog: recheckH ALL
+06-09 18:36:39.742 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:39.748 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.749 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.750 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.750 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1975512, downTime=1975499, deviceId=8, source=0x301 }
+06-09 18:36:39.775 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:39.779 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:40.526 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:40.560 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:40.561 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:40.561 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:40.878 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:40.878 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:40.880 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:40.981 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:40.981 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:41.060 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.061 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:1
+06-09 18:36:41.061 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.066 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:36:41.066 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason recentapps
+06-09 18:36:41.081 2190-2202/system_process I/ActivityManager: START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10013 on display 0
+06-09 18:36:41.085 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:41.086 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.092 2985-2985/cc.popin.aladdin.home E/SplashActivity: onPause
+06-09 18:36:41.092 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.093 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:41.098 1713-2279/? D/AudioMixer: previous float ramp hasn't finished, prev:0.999991  set_to:1.000000
+06-09 18:36:41.098 1713-2279/? D/AudioMixer: previous float ramp hasn't finished, prev:0.999991  set_to:1.000000
+06-09 18:36:41.104 2190-2202/system_process I/ActivityManager: TR7) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:41.105 2190-2202/system_process I/ActivityManager: TR6) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:41.125 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:2
+06-09 18:36:41.126 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.135 2190-2320/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:41.201 2190-2202/system_process I/ActivityManager: accel TR7) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:41.201 2190-2202/system_process I/ActivityManager: accel TR6) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:41.214 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:3
+06-09 18:36:41.214 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:41.214 2190-2321/system_process D/NtpTrustedTime: currentTimeMillis() cache hit
+06-09 18:36:41.215 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.221 2190-2320/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.264 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:4
+06-09 18:36:41.264 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.314 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:5
+06-09 18:36:41.315 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.335 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:41.351 1702-1815/? E/BufferQueueProducer: [com.android.systemui/com.android.systemui.recents.RecentsActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:41.351 2446-3156/com.android.systemui D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:41.365 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:6
+06-09 18:36:41.365 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.415 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:7
+06-09 18:36:41.416 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.445 2190-2209/system_process I/ActivityManager: Displayed com.android.systemui/.recents.RecentsActivity: +357ms
+06-09 18:36:41.466 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:8
+06-09 18:36:41.467 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.503 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:36:41.517 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:9
+06-09 18:36:41.518 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.534 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 12079(912KB) AllocSpace objects, 2(408KB) LOS objects, 39% free, 10MB/17MB, paused 588us total 30.538ms
+06-09 18:36:41.540 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.567 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.568 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:10
+06-09 18:36:41.568 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.603 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.604 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:41.605 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.618 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:11
+06-09 18:36:41.619 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.669 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:12
+06-09 18:36:41.671 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.720 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:13
+06-09 18:36:41.720 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.730 3249-3592/fm.awa.liverpool E/GoogleTagManager: Unsupported Value Escaping: 3
+06-09 18:36:41.740 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.742 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:41.743 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:41.770 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:14
+06-09 18:36:41.771 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.821 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:15
+06-09 18:36:41.821 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.835 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.837 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:41.837 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:41.838 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.086 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:42.185 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:42.185 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:42.186 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.188 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:42.348 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.360 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:42.361 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.362 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.510 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:42.511 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.515 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:42.722 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:42.725 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.726 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:42.727 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.728 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.788 2190-2501/system_process I/ActivityManager: Killing 6558:cc.popin.aladdin.radiko/u0a57 (adj 9): remove task
+06-09 18:36:42.836 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:42.885 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:42.886 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:42.888 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:42.922 2190-2276/system_process W/InputDispatcher: channel '320d17b cc.popin.aladdin.radiko/cc.popin.aladdin.radiko.ui.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-09 18:36:42.922 2190-2276/system_process E/InputDispatcher: channel '320d17b cc.popin.aladdin.radiko/cc.popin.aladdin.radiko.ui.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-09 18:36:42.925 1713-2309/? E/OMXNodeInstance: !!! Observer died. Quickly, do something, ... anything...
+06-09 18:36:42.925 2190-3022/system_process D/GraphicsStats: Buffer count: 9
+06-09 18:36:42.926 2190-3011/system_process I/WindowState: WIN DEATH: Window{320d17b u0 cc.popin.aladdin.radiko/cc.popin.aladdin.radiko.ui.MainActivity}
+06-09 18:36:42.926 2190-3011/system_process W/InputDispatcher: Attempted to unregister already unregistered input channel '320d17b cc.popin.aladdin.radiko/cc.popin.aladdin.radiko.ui.MainActivity (server)'
+06-09 18:36:42.939 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:42.940 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:42.942 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:43.011 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.012 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:43.013 2190-2205/system_process W/art: Long monitor contention event with owner method=boolean com.android.server.am.ActivityManagerService.removeTask(int) from ActivityManagerService.java:8847 waiters=0 for 228ms
+06-09 18:36:43.015 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.017 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.018 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.019 2190-2975/system_process D/ActivityManager: cleanUpApplicationRecord -- 6558
+06-09 18:36:43.020 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Sending Ping at:1623231403020
+06-09 18:36:43.021 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.022 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Schedule next alarm at 1623231413022
+06-09 18:36:43.022 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Alarm scheule using setExactAndAllowWhileIdle, next: 10000
+06-09 18:36:43.024 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.045 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:43.045 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:43.109 3383-4533/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Success. Release lock(MqttService.client.3a069860-571e-3666-855e-97164f4ee2d0):1623231403109
+06-09 18:36:43.110 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.147 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:43.148 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:43.148 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.150 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:43.310 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.311 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.312 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:43.313 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.315 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.398 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:43.415 2190-2499/system_process I/ActivityManager: Killing 4714:jp.paravi.androidtv/u0a75 (adj 15): remove task
+06-09 18:36:43.460 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:43.461 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.464 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:43.563 2190-3024/system_process D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=7, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@9233f9d)
+06-09 18:36:43.563 2190-2326/system_process D/ConnectivityService: releasing NetworkRequest NetworkRequest [ id=7, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-09 18:36:43.563 2190-3029/system_process D/GraphicsStats: Buffer count: 8
+06-09 18:36:43.564 2190-2325/system_process D/WifiService: Client connection lost with reason: 4
+06-09 18:36:43.571 2190-2326/system_process E/ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=7, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+06-09 18:36:43.604 2190-3008/system_process D/ActivityManager: cleanUpApplicationRecord -- 4714
+06-09 18:36:43.635 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.636 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:43.637 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.639 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.734 2190-2202/system_process I/ActivityManager: Killing 3518:com.android.newsettings/1000 (adj 9): remove task
+06-09 18:36:43.735 3518-3518/com.android.newsettings E/setting3.0: (WifiActivity.java:536).onDestroy():hzy
+06-09 18:36:43.835 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:43.836 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:43.862 2190-2325/system_process D/WifiService: Client connection lost with reason: 4
+06-09 18:36:43.862 2190-3010/system_process D/GraphicsStats: Buffer count: 7
+06-09 18:36:43.863 2190-3006/system_process I/WindowState: WIN DEATH: Window{d413d57 u0 com.android.newsettings/com.android.newsettings.network.WifiActivity}
+06-09 18:36:43.887 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:43.887 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:43.888 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:43.889 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:43.894 2190-3029/system_process D/ActivityManager: cleanUpApplicationRecord -- 3518
+06-09 18:36:43.899 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:43.920 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:43.920 1718-1718/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:43.920 1718-1718/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:44.048 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:44.048 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:44.049 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:44.060 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:44.147 2190-3022/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity} from uid 10013 on display 0
+06-09 18:36:44.151 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:44.154 2190-3029/system_process I/ActivityManager: Killing 5169:cc.popin.aladdin.appstore/u0a58 (adj 11): remove task
+06-09 18:36:44.322 2190-2451/system_process D/GraphicsStats: Buffer count: 6
+06-09 18:36:44.355 2190-2975/system_process I/ActivityManager: TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:44.355 2190-2975/system_process I/ActivityManager: TR1) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:44.401 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:44.421 2190-2975/system_process I/ActivityManager: accel TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:44.421 2190-2975/system_process I/ActivityManager: accel TR1) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:44.426 2190-3008/system_process D/ActivityManager: cleanUpApplicationRecord -- 5169
+06-09 18:36:44.470 2985-2985/cc.popin.aladdin.home E/SplashActivity: onResume
+06-09 18:36:44.493 1702-1815/? E/BufferQueueProducer: [cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:44.495 2985-3336/cc.popin.aladdin.home D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:44.535 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:44.740 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:36:44.780 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 6355(314KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 10MB/17MB, paused 632us total 38.864ms
+06-09 18:36:45.003 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:45.003 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:45.004 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:45.106 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:45.106 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:45.208 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:45.310 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:45.311 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:23, down:true, repeatCount:0
+06-09 18:36:45.312 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:45.458 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:45.485 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:45.486 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:45.486 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:45.492 1713-2279/? I/audio_hw_primary: adev_create_audio_patch::mix->device 
+06-09 18:36:45.492 1713-2279/? I/audio_hw_primary: adev_create_audio_patch *handle=-1417432992 num_audio_patch=3
+06-09 18:36:45.518 2985-2985/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:658 android.content.ContextWrapper.startActivity:331 cc.popin.aladdin.home.adapter.AppGridAdapter.o:12 cc.popin.aladdin.home.adapter.AppGridAdapter.n:1 cc.popin.aladdin.home.g.d.c.a:20 
+06-09 18:36:45.518 2985-2985/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:670 android.app.ContextImpl.startActivity:659 android.content.ContextWrapper.startActivity:331 cc.popin.aladdin.home.adapter.AppGridAdapter.o:12 cc.popin.aladdin.home.adapter.AppGridAdapter.n:1 
+06-09 18:36:45.519 2190-2501/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_LAUNCHER] flg=0x10000000 pkg=fm.awa.liverpool cmp=fm.awa.liverpool/.tv.ui.splash.SplashActivity} from uid 1000 on display 0
+06-09 18:36:45.527 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:45.570 2985-2985/cc.popin.aladdin.home E/SplashActivity: onPause
+06-09 18:36:45.578 2190-2451/system_process I/ActivityManager: TR3) TaskRecord{6c7a09 #197 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:45.578 2190-2451/system_process I/ActivityManager: TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:45.599 1713-2279/? E/AudioFlinger: PlaybackThread::Track::getNextBuffer:There is not enough data from AudioTrack!!!
+06-09 18:36:45.664 2190-2451/system_process I/ActivityManager: accel TR3) TaskRecord{6c7a09 #197 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:45.664 2190-2451/system_process I/ActivityManager: accel TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:45.664 2190-2451/system_process V/ActivityManager: unmatched pkg name=fm.awa.liverpool
+06-09 18:36:45.684 2190-2205/system_process W/art: Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder) from ActivityManagerService.java:6534 waiters=1 for 111ms
+06-09 18:36:45.757 3249-7532/fm.awa.liverpool W/FirebaseInstanceId: Failed to find package android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+06-09 18:36:45.760 3249-7532/fm.awa.liverpool W/FirebaseInstanceId: Failed to find package android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+06-09 18:36:45.762 3249-7532/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:45.874 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:45.879 1702-1902/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.liverpool.tv.ui.splash.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:45.879 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:45.888 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:45.890 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:45.891 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:45.893 3249-3249/fm.awa.liverpool W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1981574, downTime=1981574, deviceId=8, source=0x301 }
+06-09 18:36:45.912 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:45.926 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/.tv.ui.splash.SplashActivity: +355ms
+06-09 18:36:45.958 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:46.048 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:46.709 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:47.061 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:47.061 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:47.062 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:47.167 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:47.167 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:47.232 3249-5632/fm.awa.liverpool W/GooglePlayServicesUtil: fm.awa.liverpool requires the Google Play Store, but it is missing.
+06-09 18:36:47.232 3249-5632/fm.awa.liverpool W/GoogleApiManager: The service for g.h.c.i.c.d is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-09 18:36:47.234 2190-3010/system_process I/ActivityManager: START u0 {cmp=fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity (has extras)} from uid 10065 on display 0
+06-09 18:36:47.236 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.237 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.237 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.238 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.238 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:47.240 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:47.262 2190-2975/system_process I/ActivityManager: accel TR3) TaskRecord{6c7a09 #197 A=fm.awa.liverpool U=0 sz=2}
+06-09 18:36:47.263 2190-2975/system_process I/ActivityManager: accel TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:47.263 2190-2975/system_process V/ActivityManager: unmatched pkg name=fm.awa.liverpool
+06-09 18:36:47.272 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.273 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:47.274 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:47.275 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.289 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 14
+06-09 18:36:47.290 2446-2696/com.android.systemui I/vol.Events: writeEvent active_stream_changed STREAM_MUSIC
+06-09 18:36:47.293 2446-2446/com.android.systemui E/vol.VolumeDialog: stream:3
+06-09 18:36:47.294 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.296 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.301 2446-2446/com.android.systemui I/vol.Events: writeEvent show_dialog volume_changed keyguard=false
+06-09 18:36:47.316 1702-1815/? E/BufferQueueProducer: [VolumeDialog] connect(P): already connected (cur=1 req=1)
+06-09 18:36:47.316 2446-3156/com.android.systemui D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:47.363 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:47.365 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:47.378 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.379 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:47.381 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.498 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.498 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.523 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:47.575 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.581 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:47.582 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.651 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:47.664 1702-2265/? E/BufferQueueProducer: [fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:47.665 3249-5606/fm.awa.liverpool D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:47.747 3249-3249/fm.awa.liverpool W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1983449, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.748 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:47.749 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:47.750 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:47.750 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.750 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.750 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.750 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.751 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.751 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.752 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.752 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.752 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983451, downTime=1983449, deviceId=8, source=0x301 }
+06-09 18:36:47.753 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:47.757 3249-3249/fm.awa.liverpool W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1983700, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.761 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:47.795 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.795 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.795 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.795 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.796 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.796 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.797 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.797 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.797 3249-3249/fm.awa.liverpool W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1983701, downTime=1983700, deviceId=8, source=0x301 }
+06-09 18:36:47.801 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 12
+06-09 18:36:47.803 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 12
+06-09 18:36:47.805 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:47.806 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:47.806 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'52'value:52 <========= 
+06-09 18:36:47.838 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.886 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.887 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:47.887 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.888 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:47.888 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:47.939 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 10
+06-09 18:36:47.949 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.958 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:47.971 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:47.973 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.010 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:48.011 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:48.014 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:48.030 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:48.091 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.092 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.106 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=12
+06-09 18:36:48.184 3249-3592/fm.awa.liverpool W/GoogleTagManager: Event does not have parameter "_sn" and no default value was defined. Returning "undefined".
+06-09 18:36:48.212 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.220 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:48.222 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.314 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.317 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:48.318 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 10
+06-09 18:36:48.319 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.320 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:48.321 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:48.321 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'51'value:51 <========= 
+06-09 18:36:48.336 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.336 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.389 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.391 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:48.391 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.487 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.489 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:48.490 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:48.526 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:48.620 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=10
+06-09 18:36:48.836 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:48.836 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:48.921 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:48.921 1718-2233/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:48.921 1718-2233/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:48.948 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.948 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:48.967 2190-2209/system_process I/ActivityManager: Displayed fm.awa.liverpool/fm.awa.tv.ui.main.MainActivity: +1s713ms
+06-09 18:36:49.039 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 63 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:49.131 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:49.131 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:49.133 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:49.171 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:49.172 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:49.173 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:49.175 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:49.184 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_BLUETOOTH_SCO 1
+06-09 18:36:49.193 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:49.200 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 8
+06-09 18:36:49.213 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:49.237 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:49.237 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:49.340 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:49.360 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:49.360 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:49.435 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:49.442 2985-2985/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 cc.popin.aladdin.home.i.b.r:3 cc.popin.aladdin.home.i.b.c:5 cc.popin.aladdin.home.viewmodel.HomeViewModel.d:1 
+06-09 18:36:49.456 2190-2975/system_process I/ActivityManager: Start proc 7680:cc.popin.aladdin.home:DLService/1000 for service cc.popin.aladdin.home/cc.popin.aladdin.service.DLService
+06-09 18:36:49.458 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:49.544 7680-7680/cc.popin.aladdin.home:DLService I/MultiDex: VM with version 2.1.0 has multidex support
+06-09 18:36:49.544 7680-7680/cc.popin.aladdin.home:DLService I/MultiDex: Installing application
+06-09 18:36:49.544 7680-7680/cc.popin.aladdin.home:DLService I/MultiDex: VM has multidex support, MultiDex support library is disabled.
+06-09 18:36:49.554 7680-7680/cc.popin.aladdin.home:DLService W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 com.xgimi.xgimiopenapi.clients.BaseProjector.registerAIDLService:3 com.xgimi.xgimiopenapi.clients.BaseProjector.<init>:4 com.xgimi.xgimiopenapi.clients.Aladdin.<init>:1 
+06-09 18:36:49.581 7680-7680/cc.popin.aladdin.home:DLService I/BluetoothAdapter: register  PID = 7680 TID = 7680
+06-09 18:36:49.582 2190-2208/system_process D/BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@6fdb207:true
+06-09 18:36:49.591 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:49.615 7680-7680/cc.popin.aladdin.home:DLService I/org.libsodium.jni.a: librarypath=/vendor/lib:/system/lib
+06-09 18:36:49.626 7680-7696/cc.popin.aladdin.home:DLService I/GlobalProperties: LOG:GlobalEntity{country='JP'}
+06-09 18:36:49.627 7680-7696/cc.popin.aladdin.home:DLService W/System.err: java.io.FileNotFoundException: app_config_JP.json
+06-09 18:36:49.628 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at android.content.res.AssetManager.openAsset(Native Method)
+06-09 18:36:49.628 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at android.content.res.AssetManager.open(AssetManager.java:313)
+06-09 18:36:49.628 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at android.content.res.AssetManager.open(AssetManager.java:287)
+06-09 18:36:49.628 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at cc.popin.aladdin.settings.I18N.a.n(I18NResourceMgr.java:1)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at cc.popin.aladdin.settings.I18N.a.o(I18NResourceMgr.java:2)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at cc.popin.aladdin.core.AladdinApp.w(AladdinApp.java:2)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at cc.popin.aladdin.core.a.run(lambda)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at a.a.a.c.d.a.run(WorkerRunnable.java:3)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+06-09 18:36:49.629 7680-7696/cc.popin.aladdin.home:DLService W/System.err:     at java.lang.Thread.run(Thread.java:818)
+06-09 18:36:49.650 7680-7680/cc.popin.aladdin.home:DLService I/XGIMI_OPEN_API: mAIDL connected,iBinder:android.os.BinderProxy@6128c88
+06-09 18:36:49.705 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 8
+06-09 18:36:49.707 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:49.708 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:49.708 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'51'value:51 <========= 
+06-09 18:36:50.001 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.003 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:50.004 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:50.005 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:50.005 3249-3249/fm.awa.liverpool I/Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+06-09 18:36:50.005 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.007 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.007 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=8
+06-09 18:36:50.020 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_ALARM 0
+06-09 18:36:50.022 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_RING 0
+06-09 18:36:50.033 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_SYSTEM 0
+06-09 18:36:50.040 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:50.040 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:50.041 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 6
+06-09 18:36:50.065 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.092 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:50.442 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:50.444 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:50.444 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:50.446 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.465 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 4
+06-09 18:36:50.479 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.551 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 4
+06-09 18:36:50.552 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:50.552 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:50.553 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'50'value:50 <========= 
+06-09 18:36:50.669 2190-2323/system_process D/WifiStateMachine: L2Connected CMD_START_SCAN source -2 102, 103 ignore when user is not setting wifi UI, because wifi sta is connected
+06-09 18:36:50.695 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.697 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:50.697 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:50.698 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:50.700 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.709 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=HONOR Band 5-BAA len=16 dev_type=2
+06-09 18:36:50.716 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.721 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.738 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:50.748 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:25, down:true, repeatCount:0
+06-09 18:36:50.749 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:50.750 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:50.751 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.767 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:50.770 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 2
+06-09 18:36:50.779 2190-2497/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.788 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:50.812 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.817 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 0
+06-09 18:36:50.831 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:50.842 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:50.854 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=4
+06-09 18:36:50.973 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 0
+06-09 18:36:50.975 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:50.976 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:50.978 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'50'value:50 <========= 
+06-09 18:36:51.158 1867-1867/? I/tvos: [INFO] Change to Voltage: 1000 mV (0x21)
+06-09 18:36:51.195 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:51.197 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:51.198 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:51.275 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=0
+06-09 18:36:51.301 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:51.301 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:51.403 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:51.653 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:51.744 2190-2956/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:51.860 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:51.861 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:51.861 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:51.861 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:51.865 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:51.868 1867-1867/? I/tvos: [INFO] Change to Voltage: 1150 mV (0x30)
+06-09 18:36:51.881 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 2
+06-09 18:36:51.883 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:51.974 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:51.974 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:51.975 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:52.154 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:52.196 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:52.285 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:52.285 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:52.286 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:52.289 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:52.303 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:52.306 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 4
+06-09 18:36:52.314 2190-3024/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:52.385 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 4
+06-09 18:36:52.386 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:52.387 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:52.388 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'50'value:50 <========= 
+06-09 18:36:52.460 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:52.461 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:52.462 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:52.473 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:52.654 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:52.686 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=4
+06-09 18:36:52.965 2950-3103/com.xgimi.filemanager E/DeviceLoadService: CHECKMOUNTSTATUS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>false
+06-09 18:36:52.968 2950-3103/com.xgimi.filemanager E/FindLocalDevice: path>>>>>>>>>>>:/storage/emulated/0state:mounted
+06-09 18:36:52.968 2950-3103/com.xgimi.filemanager E/DeviceLoadService: mountPath/storage/emulated/0
+06-09 18:36:52.968 2950-3103/com.xgimi.filemanager I/JClass: --------------12205936
+06-09 18:36:52.968 2950-3103/com.xgimi.filemanager I/mOpenCounter: openDatabase mOpenCounter=211
+06-09 18:36:52.969 2950-3103/com.xgimi.filemanager E/DeviceLoadService: checkMountPathExisttrue
+06-09 18:36:52.969 2950-3103/com.xgimi.filemanager I/JClass: --------------12205936
+06-09 18:36:52.969 2950-3103/com.xgimi.filemanager I/mOpenCounter: openDatabase mOpenCounter=212
+06-09 18:36:52.970 2950-3103/com.xgimi.filemanager E/DeviceLoadService: usb/storage/emulated/0
+06-09 18:36:52.970 2950-3103/com.xgimi.filemanager E/DeviceLoadService: notifyCheckChanged>>>>>>>>>>>>>>>>>>>>>>
+06-09 18:36:52.973 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:52.973 2190-2277/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:52.973 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:52.973 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:24, down:true, repeatCount:0
+06-09 18:36:52.974 1867-1867/? I/tvos: xgimiMcu(callingPid 2190, clientPid 2190)
+06-09 18:36:52.992 2446-2696/com.android.systemui I/vol.Events: writeEvent level_changed STREAM_MUSIC 6
+06-09 18:36:52.993 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.023 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.025 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Sending Ping at:1623231413025
+06-09 18:36:53.026 2190-3011/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.027 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Schedule next alarm at 1623231423027
+06-09 18:36:53.027 3383-3383/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Alarm scheule using setExactAndAllowWhileIdle, next: 10000
+06-09 18:36:53.029 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.116 3383-4533/cc.popin.aladdin.home:mqtt D/AlarmPingSender: Success. Release lock(MqttService.client.3a069860-571e-3666-855e-97164f4ee2d0):1623231413116
+06-09 18:36:53.117 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.148 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:53.149 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:53.150 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:53.256 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:53.257 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:53.257 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:53.269 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=XiaoduPods-1A84 len=16 dev_type=3
+06-09 18:36:53.271 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.274 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:53.279 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:53.360 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:53.360 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:53.462 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:53.498 2457-2457/com.mstar.tv.service I/TvService: -->update volume db = 6
+06-09 18:36:53.499 2457-2457/com.mstar.tv.service I/DatabaseManager_JNI: setDatabaseDirtyByApplication
+06-09 18:36:53.502 2457-2457/com.mstar.tv.service D/TvManager_JNI: setTvosCommonCommand
+06-09 18:36:53.503 1867-1867/? I/tvos:  =========> DMRL Common Command Parse:com1:'mcuvolume' com2:'51'value:51 <========= 
+06-09 18:36:53.648 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.648 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:53.648 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:53.712 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:53.798 3494-3511/com.mstar.android.providers.tv E/TvUserSettingProvider: updating content://mstar.tv.usersetting/soundsetting, value = Volume=6
+06-09 18:36:53.823 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:53.824 2190-2276/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:36:53.827 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.828 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:36:53.828 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason homekey
+06-09 18:36:53.828 2190-2276/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity (has extras)} from uid 1000 on display 0
+06-09 18:36:53.828 2446-2446/com.android.systemui I/vol.Events: writeEvent dismiss_dialog volume_controller
+06-09 18:36:53.835 2446-2696/com.android.systemui I/vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+06-09 18:36:53.837 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:53.842 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:53.843 1702-1702/? D/SurfaceFlinger: [capture screen]:maxLayerZ = 21015
+06-09 18:36:53.853 1702-1702/? D/SurfaceFlinger: captureScreen: end ret =0
+06-09 18:36:53.862 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:53.868 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:53.870 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:53.884 2190-3022/system_process I/ActivityManager: TR3) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:53.884 2190-3022/system_process I/ActivityManager: TR2) TaskRecord{6c7a09 #197 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:53.921 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:53.921 1718-4642/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:53.922 1718-4642/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:53.968 2190-3022/system_process I/ActivityManager: accel TR3) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:53.968 2190-3022/system_process I/ActivityManager: accel TR2) TaskRecord{6c7a09 #197 A=fm.awa.liverpool U=0 sz=1}
+06-09 18:36:54.037 2985-2985/cc.popin.aladdin.home E/SplashActivity: onResume
+06-09 18:36:54.076 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:54.084 1702-1813/? E/BufferQueueProducer: [cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:54.086 2985-3336/cc.popin.aladdin.home D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:54.091 2985-7468/cc.popin.aladdin.home W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 com.google.android.gms.common.stats.a.d:4 com.google.android.gms.common.stats.a.a:1 com.google.android.gms.measurement.internal.q8.e:10 
+06-09 18:36:54.093 2190-3029/system_process W/ResourceType: Invalid package identifier when getting bag for resource number 0xffffffff
+06-09 18:36:54.095 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x8, repeatCount=0, eventTime=1989912, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.097 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.099 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:54.099 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.100 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x28, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.103 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.103 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.103 2985-2985/cc.popin.aladdin.home W/ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_UNKNOWN, scanCode=88, metaState=0, flags=0x228, repeatCount=0, eventTime=1989913, downTime=1989912, deviceId=8, source=0x301 }
+06-09 18:36:54.115 2446-2446/com.android.systemui E/vol.VolumeDialog: stream:3
+06-09 18:36:54.115 2446-2446/com.android.systemui D/vol.VolumeDialog: recheckH ALL
+06-09 18:36:54.116 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.141 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.213 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:54.281 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.660 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:54.660 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:54.662 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:54.714 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:55.161 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:55.161 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:1
+06-09 18:36:55.162 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.165 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:36:55.165 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason recentapps
+06-09 18:36:55.171 2190-2975/system_process I/ActivityManager: START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10013 on display 0
+06-09 18:36:55.176 2190-2975/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:55.184 2985-2985/cc.popin.aladdin.home E/SplashActivity: onPause
+06-09 18:36:55.185 2190-2975/system_process I/ActivityManager: TR3) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:55.185 2190-2975/system_process I/ActivityManager: TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:55.213 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:2
+06-09 18:36:55.214 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.270 2190-2975/system_process I/ActivityManager: accel TR3) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:55.270 2190-2975/system_process I/ActivityManager: accel TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:55.291 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:3
+06-09 18:36:55.292 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.309 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:55.316 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:55.318 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:55.321 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:55.340 1702-2265/? E/BufferQueueProducer: [com.android.systemui/com.android.systemui.recents.RecentsActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:55.341 2446-3156/com.android.systemui D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:55.343 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:4
+06-09 18:36:55.344 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.396 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:36:55.401 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:5
+06-09 18:36:55.401 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.431 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:55.431 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:55.433 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 11151(613KB) AllocSpace objects, 4(1544KB) LOS objects, 40% free, 9MB/15MB, paused 486us total 34.202ms
+06-09 18:36:55.452 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:6
+06-09 18:36:55.453 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.456 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:55.502 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:7
+06-09 18:36:55.503 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.533 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:55.553 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:8
+06-09 18:36:55.554 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.603 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:9
+06-09 18:36:55.604 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.654 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:10
+06-09 18:36:55.655 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.705 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:55.705 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:11
+06-09 18:36:55.705 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.755 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:12
+06-09 18:36:55.756 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.773 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.774 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:55.774 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:55.784 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:55.798 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:56.023 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:56.023 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:56.024 2446-2446/com.android.systemui E/TASK: launched from home :true
+06-09 18:36:56.043 2190-3008/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.044 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:56.046 2190-3029/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.178 3249-3592/fm.awa.liverpool E/GoogleTagManager: Unsupported Value Escaping: 3
+06-09 18:36:56.189 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.192 3249-3323/fm.awa.liverpool E/FirebaseInstanceId: Google Play services missing or without correct permission.
+06-09 18:36:56.193 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.199 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:56.199 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:56.202 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:56.202 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:56.281 2190-2499/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity} from uid 10013 on display 0
+06-09 18:36:56.287 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.297 2190-2201/system_process I/ActivityManager: TR3) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:56.297 2190-2201/system_process I/ActivityManager: TR2) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:56.355 2190-2201/system_process I/ActivityManager: accel TR3) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:56.355 2190-2201/system_process I/ActivityManager: accel TR2) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:56.410 2985-2985/cc.popin.aladdin.home E/SplashActivity: onResume
+06-09 18:36:56.427 1702-2265/? E/BufferQueueProducer: [cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:56.429 2985-3336/cc.popin.aladdin.home D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:56.460 2190-2451/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:56.534 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:56.653 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:36:56.692 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 1605(138KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 9MB/15MB, paused 483us total 37.635ms
+06-09 18:36:57.285 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:57.387 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:57.388 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:57.389 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:57.490 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:57.491 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:57.593 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:57.786 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:57.786 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:57.787 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:57.844 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:58.285 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:58.285 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:1
+06-09 18:36:58.286 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.288 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:36:58.289 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason recentapps
+06-09 18:36:58.296 2190-3022/system_process I/ActivityManager: START u0 {act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10013 on display 0
+06-09 18:36:58.301 2190-3022/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:58.302 2985-2985/cc.popin.aladdin.home E/SplashActivity: onPause
+06-09 18:36:58.312 2190-3022/system_process I/ActivityManager: TR2) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:58.312 2190-3022/system_process I/ActivityManager: TR1) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:58.335 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:2
+06-09 18:36:58.336 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.345 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:58.401 2190-3022/system_process I/ActivityManager: accel TR2) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:36:58.401 2190-3022/system_process I/ActivityManager: accel TR1) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:36:58.422 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:3
+06-09 18:36:58.426 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.474 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:4
+06-09 18:36:58.475 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.487 1702-2265/? E/BufferQueueProducer: [com.android.systemui/com.android.systemui.recents.RecentsActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:36:58.488 2446-3156/com.android.systemui D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:36:58.524 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:5
+06-09 18:36:58.526 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.531 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:36:58.560 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 996(139KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 9MB/15MB, paused 484us total 28.771ms
+06-09 18:36:58.566 2190-3010/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:58.575 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:6
+06-09 18:36:58.576 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.605 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=Hi-SZL1-12B7E000567 len=19 dev_type=2
+06-09 18:36:58.607 2190-2201/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:58.612 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:36:58.617 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:36:58.625 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:7
+06-09 18:36:58.626 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.676 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:8
+06-09 18:36:58.676 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.726 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:9
+06-09 18:36:58.727 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.777 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:10
+06-09 18:36:58.777 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.827 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:58.828 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:11
+06-09 18:36:58.828 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.842 2486-2523/com.xgimi.xgimiservice D/TvManager_JNI: getGpioDeviceStatus
+06-09 18:36:58.842 2486-2523/com.xgimi.xgimiservice D/RTCDetect: The RTC shutdown signal status is : 1
+06-09 18:36:58.846 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:58.879 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:12
+06-09 18:36:58.880 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.911 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.912 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:58.914 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.915 2957-2999/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:58.922 2486-2520/com.xgimi.xgimiservice D/TvManager_JNI: getFrcVersion
+06-09 18:36:58.923 1718-1718/? V/3D: Func: GetCurrent3DFormat()
+06-09 18:36:58.923 1718-1718/? V/3D: Func: GetCurrent3DFormat() : return current3d=0
+06-09 18:36:59.160 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:19, down:true, repeatCount:0
+06-09 18:36:59.161 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:59.323 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:59.335 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:59.336 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:36:59.336 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:59.338 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:59.346 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:36:59.448 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:36:59.448 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:36:59.449 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:59.553 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:59.553 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:36:59.613 2190-2501/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:59.655 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:36:59.898 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:36:59.898 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:3, down:true, repeatCount:0
+06-09 18:36:59.899 2957-3373/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:36:59.905 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:37:00.001 2190-2263/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:00.012 2957-3372/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:37:00.018 2190-2276/system_process W/TelecomManager: Telecom Service not found.
+06-09 18:37:00.019 2190-2276/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:00.021 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: action android.intent.action.CLOSE_SYSTEM_DIALOGS
+06-09 18:37:00.021 2985-2985/cc.popin.aladdin.home I/HomeReceiver: onReceive: reason homekey
+06-09 18:37:00.023 2190-2276/system_process D/xgimiDebug[938]: interceptKeyBeforeDispatching:key_Code:0, down:true, repeatCount:0
+06-09 18:37:00.024 2957-3181/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:37:00.025 2957-2984/com.xgimi.soundermodeservice D/SounderMode: [ (SounderModeService.java:101)#GetCurrentSoundMode ] 0
+06-09 18:37:00.060 2190-2499/system_process I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity} from uid 10013 on display 0
+06-09 18:37:00.072 2190-2499/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:00.083 2190-3022/system_process I/ActivityManager: TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:37:00.083 2190-3022/system_process I/ActivityManager: TR1) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:37:00.160 2190-3022/system_process I/ActivityManager: accel TR2) TaskRecord{138fd96 #179 A=cc.popin.aladdin.home U=0 sz=1}
+06-09 18:37:00.160 2190-3022/system_process I/ActivityManager: accel TR1) TaskRecord{ac7d07b #196 A=com.android.systemui U=0 sz=1}
+06-09 18:37:00.170 2190-2190/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:00.210 2985-2985/cc.popin.aladdin.home E/SplashActivity: onResume
+06-09 18:37:00.236 1702-2266/? E/BufferQueueProducer: [cc.popin.aladdin.home/cc.popin.aladdin.splash.ui.SplashActivity] connect(P): already connected (cur=1 req=1)
+06-09 18:37:00.237 2985-3336/cc.popin.aladdin.home D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+06-09 18:37:00.274 2190-3000/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:00.406 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:37:00.433 2446-2446/com.android.systemui I/art: Starting a blocking GC Explicit
+06-09 18:37:00.464 2446-2446/com.android.systemui I/art: Explicit concurrent mark sweep GC freed 1366(131KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 9MB/15MB, paused 746us total 29.956ms
+06-09 18:37:01.156 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:37:01.340 2763-2831/com.android.bluetooth D/bt_btif_gattc: btif_gattc_update_properties BLE device name=Hi-SZL1-12B7E000567 len=19 dev_type=2
+06-09 18:37:01.341 2190-3006/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:01.345 2924-2924/com.xgimi.bluetoothservice D/xgimi_bluetooth_BroadcastReceiver: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  action::android.bluetooth.device.action.NAME_CHANGED
+06-09 18:37:01.354 2924-2924/com.xgimi.bluetoothservice I/xgimi_bluetooth_MBluetoothManager: can't find cachedDevice
+06-09 18:37:01.508 1867-1867/? I/tvos: [SerialDebug] XgimiManagerService commonNotify:7,42,temperature
+06-09 18:37:01.508 3912-3912/com.xgimi.windowsystem E/hzy: temperature
+06-09 18:37:01.509 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:37:01.611 1867-1867/? I/tvos:  [WOW] Fan U Left FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:37:01.611 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<get_fan_status> line:212 |  Fan status is [0] ##### 
+06-09 18:37:01.713 1867-1867/? I/tvos:  [WOW] Fan U Right FUN:<fan_ctrl_Auto> line:124 | not change,do not set pwm ,old:[42] cur:[42] 
+06-09 18:37:01.963 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
+06-09 18:37:02.356 2190-2202/system_process E/PowerManagerService: STRSTR updatePowerStateLocked
+06-09 18:37:02.464 1867-1867/? I/tvos:  =====> [DMRL] Ear Phone GPIO is NULL 
